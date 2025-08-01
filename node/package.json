@@ -1,0 +1,22 @@
+{
+  "name": "fsm-engine-test",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": ["fsm"],
+  "author": "JJ",
+  "license": "ISC",
+  "description": "FSN engine with a mod-three module",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.12.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
