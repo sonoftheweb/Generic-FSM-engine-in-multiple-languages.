@@ -10,7 +10,7 @@ The architecture emphasizes a strong separation of concerns, making the core FSM
 │   ├── core/                 # The generic, reusable FSM engine
 │   │   ├── fsm.ts            # The main FiniteStateMachine class
 │   │   └── types.ts          # Core TypeScript interfaces and types
-│   ├── mods/                 # Specific FSM implementations
+│   ├── modules/                 # Specific FSM implementations
 │   │   └── modThree/
 │   │       ├── modThree.fsm.ts # FSM definition for the mod-three problem
 │   │       └── modThree.ts     # The main modThree function implementation
@@ -18,7 +18,7 @@ The architecture emphasizes a strong separation of concerns, making the core FSM
 ├── tests/
 │   ├── core/
 │   │   └── fsm.test.ts       # Unit tests for the generic FSM engine
-│   └── mods/
+│   └── modules/
 │       └── modThree.test.ts  # Unit tests for the modThree implementation
 ├── jest.config.js            # Jest test runner configuration
 ├── package.json
