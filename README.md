@@ -1,0 +1,2 @@
+### A simple implementation of the FSM engine
+This repository houses the implementation of a modular FSM engine developed in different languages and frameworks. The aim is to compute the modulus of a binary number and return it's output as a decimal number. 
