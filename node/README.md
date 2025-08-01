@@ -25,6 +25,7 @@ The architecture emphasizes a strong separation of concerns, making the core FSM
 ├── package-lock.json
 └── tsconfig.json
 ```
+
 Setup and InstallationInstall Dependencies
 ```
 npm install
